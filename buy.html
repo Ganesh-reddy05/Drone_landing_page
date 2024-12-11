@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Now Page</title>
+  <link rel="stylesheet" href="buy.css">
+  <style>
+    .item{
+      margin-left: 10px;
+    }
+    .footer {
+      font-size: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+      background: linear-gradient(45deg,rgb(21, 21, 38),rgb(56, 18, 18),rgb(68, 10, 10));
+    }
+
+    .floating-box {
+      border-radius: 30px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      padding: 20px;
+      width: 30%;
+      margin-bottom: 20px;
+    }
+
+    .floating-box h5 {
+      margin-bottom: 15px;
+    }
+
+    .floating-box ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .floating-box li {
+      margin-bottom: 10px;
+    }
+
+    .floating-box a {
+      text-decoration: none;
+      color: #ffffff;
+      cursor: pointer;
+    }</style>
+</head>
+<body>
+  <div class="container3">
+    <div class="logo1"><img src="logo1-removebg-preview.png" alt="logo" width="50px" height="50px"  a href="index.html"></div>
+    <div class="logo"><a href="index.html">ZEN</a></div>
+    <div class="item"><a href="#products#prods">Products</a></div>
+    <div class="item"><a href="index.html#fet">Features</a></div> 
+    <div class="item"><a href="index.html#exp">Explore</a></div>
+    <div class="item"><a href="#About us">About us</a></div>
+</div>
+  <main class="content" ">
+    <div class="product-section" style="margin-top: 50px;">
+      <img src="drone3.jpg" alt="Product Image" class="product-image">
+      <div class="product-details">
+        <h2>Zen Aviations</h2>
+        <p class="price">Price: $<span id="price">100</span></p>
+        <p class="discount">Discount: <span id="discount">10%</span></p>
+        <button class="buy-now-button" onclick="placeOrder()">Buy Now</button>
+      </div>
+    </div>
+    <div class="description-section">
+      <h1>Description</h1>
+      <p>
+        Professional video specification .The new 10-bit D-Log M color mode supports recording up to one billion colors.<br>
+        Even in high-contrast scenarios, like sunrises and sunsets, it delivers natural color gradations with delicate 
+        details for a full-spectrum visual experience. 
+        In addition, D-Log M mode reduces the difficulty of color grading, allowing you to fully enjoy efficient 
+        post-production without losing image quality or clarity.<br>
+        Extended flight time.Mavic 3 Pro provides up to 43 minutes of flight time, [2] giving you more confidence 
+        to fly further and spend less time worrying about the battery level.
+        Execute every step, from flight route planning to shot composition, all during a single flight<br>
+        Flagship video transmission. DJI O3+ features a transmission distance of up to 15 km [3] with stable signals,
+        presenting a more coherent camera view. 
+        It can transmit a 1080p/60fps HD live feed, which makes Mavic 3 Pro more responsive to your control and gives
+        you a more vibrant video feed on your monitor
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div class="footer" id="About us">
+      <div class="floating-box">
+        
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    
+      <div class="floating-box">
+       
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    
+      <div class="floating-box">
+        <h5 style="color:white">Subscribe</h5>
+        <form class="newsletter-form">
+          <input style="width: 180px;height: 35px;" type="email" placeholder="Your email address" required><br><br>
+          <button style="width: 100px;height: 40px;" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <p style="color: white;font-size: 10px;text-align: center;">© 2024 ZenAviations, Inc. All rights reserved.</p>
+    </footer>
+
+  <script src="bnow.js"></script>
+</body>
+</html>
